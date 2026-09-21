@@ -843,7 +843,7 @@ button {
 }
 .project-modal-gallery {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
   min-height: 0;
   padding: 0 56px 36px;
@@ -864,10 +864,11 @@ button {
 }
 .project-modal-image {
   display: block;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 300px;
   max-height: 420px;
   max-width: 100%;
+  object-fit: contain;
   margin-inline: auto;
 }
 .project-modal-image-wrap {
@@ -902,6 +903,7 @@ button {
   z-index: 2;
   width: 36px;
   height: 36px;
+  border-radius: 8px;
   border: 1px solid var(--brown);
   background: var(--white);
   color: var(--brown);
@@ -1309,6 +1311,16 @@ blockquote {
 .footer-socials a {
   color: var(--brown);
   transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.social-icon {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
 }
 .footer-links a:hover,
 .footer-socials a:hover {
@@ -1805,7 +1817,7 @@ blockquote {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0;
+  border-radius: 10px;
   font-family: var(--body);
   font-size: 12px;
   font-weight: 700;
