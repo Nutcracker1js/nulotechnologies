@@ -121,7 +121,11 @@ projectToggles.forEach(toggleButton => {
       const img = document.createElement("img");
       img.className = index === 0 ? "project-modal-image" : "project-modal-image project-modal-image-secondary";
       img.src = image.src;
+      img.srcset = image.srcset;
+      img.sizes = image.sizes;
       img.alt = image.alt;
+      img.loading = "lazy";
+      img.decoding = "async";
 
       wrap.appendChild(img);
       projectModalGallery.appendChild(wrap);

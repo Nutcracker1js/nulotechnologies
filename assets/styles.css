@@ -1837,7 +1837,8 @@ img {
 }
 
 .project-category-section-branding .project-card-visual img {
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .project-category-section-branding .project-card-rose .project-card-visual {

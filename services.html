@@ -8,6 +8,7 @@
       content="Explore Nulo's web and app development, hosting and domain support, and website maintenance services."
     />
     <meta name="theme-color" content="#090908" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
     <title>Services — Nulo Creative Technology Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +22,7 @@
     <header class="site-header" id="top">
       <nav class="nav container" aria-label="Primary navigation">
         <a class="brand" href="index.html#home" aria-label="Nulo home">
-          <img src="assets/images/logo.png" alt="Nulo" class="brand-logo" />
+          <img src="optimized-images/assets/images/logo.webp" alt="Nulo" class="brand-logo" />
           <span class="logo-fallback" aria-hidden="true">nulo</span>
         </a>
 
@@ -72,9 +73,16 @@
           <div class="service-page-visual reveal" aria-hidden="true">
             <img
               class="service-page-image"
-              src="assets/images/visibility.jpg"
+              src="optimized-images/assets/images/visibility.webp"
+              srcset="
+                optimized-images/assets/images/visibility-320w.webp 320w,
+                optimized-images/assets/images/visibility-640w.webp 640w,
+                optimized-images/assets/images/visibility.webp 667w
+              "
+              sizes="(max-width: 760px) 100vw, 50vw"
               alt="Laptop and monitor in a digital marketing workspace"
-              loading="lazy"
+              loading="eager"
+              fetchpriority="high"
               decoding="async"
             />
           </div>
@@ -272,7 +280,13 @@
     <footer class="footer">
       <div class="container footer-top">
         <div class="footer-branding">
-          <img src="assets/images/logo.png" alt="Nulo" class="footer-logo" />
+          <img
+            src="optimized-images/assets/images/logo.webp"
+            alt="Nulo"
+            class="footer-logo"
+            loading="lazy"
+            decoding="async"
+          />
           <p>Technology, identity, and digital experiences built with intention.</p>
         </div>
         <div class="footer-navigation">
@@ -305,7 +319,6 @@
       </div>
       <div class="container footer-bottom">
         <span>© 2026 Nulo. All rights reserved.</span>
-        <span>Made with intention.</span>
         <a href="#top">Back to top</a>
       </div>
     </footer>

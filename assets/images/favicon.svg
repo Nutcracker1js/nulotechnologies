@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2246 2193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-164.176307,-484.023642)">
+        <g>
+            <g transform="matrix(0.807128,0,0,0.762683,629.462997,128.193785)">
+                <ellipse cx="814.43" cy="1904.141" rx="1390.903" ry="1437.59" style="fill:rgb(255,254,200);"/>
+            </g>
+            <g transform="matrix(1.108402,0,0,1.108402,-10.540094,-676.369322)">
+                <g transform="matrix(0.846439,0,0,1.243145,99.082556,1931.562289)">
+                    <g transform="matrix(1.118151,0,0,1,-33.524892,0)">
+                        <text x="283.746px" y="210px" style="font-family:'Enos';font-size:258.132px;fill:rgb(73,48,8);">nu</text>
+                    </g>
+                    <g transform="matrix(1.118151,0,0,1,-152.336433,0)">
+                        <text x="1289.336px" y="210px" style="font-family:'Enos';font-size:258.132px;fill:rgb(138,85,11);">l<tspan x="1680.056px " y="210px ">o</tspan></text>
+                    </g>
+                </g>
+                <g transform="matrix(0.689837,0,0,0.906091,1078.12433,-596.325986)">
+                    <text x="858.17px" y="2746.814px" style="font-family:'Ibrand-Regular', 'Ibrand';font-size:375px;">.</text>
+                </g>
+                <g transform="matrix(0.689837,0,0,0.906091,1230.69088,-596.325986)">
+                    <text x="858.17px" y="2746.814px" style="font-family:'Ibrand-Regular', 'Ibrand';font-size:375px;">.</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
